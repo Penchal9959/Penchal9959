@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @Penchal9959
-- 👀 I’m interested in VLSI Frontend( Design and Verification)
+- 👀 I’m interested in Core(Electronics field and VLSI)
 - 🌱 I’m currently learning verilog and systemverilog
-- 💞️ I’m looking to collaborate on designing or design verification projects
+- 💞️ I’m looking to collaborate on Embedded System projects and Design verification field
 - 📫 How to reach me on penchalanarasaiah.77@gmail.com
 
 <!---
