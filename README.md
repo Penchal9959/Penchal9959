@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Penchal9959
+- 👋 Hi, I’m Kuncham Penchalanarasaiah
 - 👀 I’m interested in Core(Electronics field and VLSI Domain)
 - 🌱 I’m currently learning verilog and systemverilog
 - 💞️ I’m looking to collaborate on Embedded System projects and Design verification projects
