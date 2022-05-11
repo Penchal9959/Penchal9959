@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Kuncham Penchalanarasaiah
-- 👀 I’m interested in Core(Electronics field and VLSI Domain)
+- 👀 I’m interested in Core (Embedded system domain and VLSI Domain)
 - 🌱 I’m currently learning verilog and systemverilog
 - 💞️ I’m looking to collaborate on Embedded System projects and Design verification projects
 - 📫 How to reach me on penchalanarasaiah.77@gmail.com
