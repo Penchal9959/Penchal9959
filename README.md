@@ -18,8 +18,7 @@
 I'm a PhD research scholar at **IIT Bombay**, working on **GNSS receiver signal processing** — with
 a focus on detecting and mitigating **spoofing and jamming** attacks on satellite navigation.
 
-My work spans the full receiver chain: acquisition and tracking algorithms in MATLAB, correlator
-architectures in Verilog on Xilinx **Kria K26 / KR260** SoMs, and PVT solvers. Alongside that I work
+My work spans the full receiver chain: acquisition and tracking, PVT Algorithms. Alongside that, I work
 on embedded systems for real-time signal processing on **STM32N6** class hardware.
 
 Before the PhD I built a lot of sensor-driven embedded hardware — that work lives in
