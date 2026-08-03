@@ -32,7 +32,7 @@ Before the PhD I built a lot of sensor-driven embedded hardware — that work li
 |------|----------------|
 | **GNSS signal processing** | Acquisition, tracking loops, correlator design, PVT solution |
 | **Spoofing &amp; jamming** | Detection through spatial processing; interference characterisation |
-| **FPGA / RTL** | Verilog correlators and datapaths on Xilinx Kria K26, KR260 |
+| **FPGA / RTL** | Verilog datapaths and AXI4-Stream capture logic on Xilinx Zynq-7000 |
 | **Embedded systems** | STM32N6, real-time DSP on constrained hardware |
 
 ---
@@ -41,6 +41,7 @@ Before the PhD I built a lot of sensor-driven embedded hardware — that work li
 
 | Repository | What it is |
 |------------|-----------|
+| [zynq-gnss-data-capture](https://github.com/Penchal9959/zynq-gnss-data-capture) | FPGA data acquisition for a GNSS RF front-end on a ZC706 — custom AXI4-Stream packer in PL, capture to DDR3 and microSD from the Zynq PS |
 | [verilog-digital-design](https://github.com/Penchal9959/verilog-digital-design) | RTL designs — FSM-controlled multiplier, sequence detectors, true dual-port RAM. Self-checking testbenches, all passing under Icarus Verilog |
 | [embedded-iot-projects](https://github.com/Penchal9959/embedded-iot-projects) | Twelve microcontroller projects — GSM alerting, sensor-triggered actuation, solar-powered field deployment |
 | [Robotic_Vending_Dispenser](https://github.com/Penchal9959/Robotic_Vending_Dispenser) | Autonomous juice vending machine — Raspberry Pi 4, PyQt5 touch UI, servo/motor control, payment gateway |
