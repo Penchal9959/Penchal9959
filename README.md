@@ -42,6 +42,7 @@ Before the PhD I built a lot of sensor-driven embedded hardware — that work li
 | Repository | What it is |
 |------------|-----------|
 | [zynq-gnss-data-capture](https://github.com/Penchal9959/zynq-gnss-data-capture) | FPGA data acquisition for a GNSS RF front-end on a ZC706 — custom AXI4-Stream packer in PL, capture to DDR3 and microSD from the Zynq PS |
+| [zynq-hdmi-rasterizer](https://github.com/Penchal9959/zynq-hdmi-rasterizer) | Verilog triangle rasterizer driving HDMI directly on a PYNQ-Z2 — edge-function fill, one pixel per clock, no frame buffer |
 | [verilog-digital-design](https://github.com/Penchal9959/verilog-digital-design) | RTL designs — FSM-controlled multiplier, sequence detectors, true dual-port RAM. Self-checking testbenches, all passing under Icarus Verilog |
 | [embedded-iot-projects](https://github.com/Penchal9959/embedded-iot-projects) | Twelve microcontroller projects — GSM alerting, sensor-triggered actuation, solar-powered field deployment |
 | [Robotic_Vending_Dispenser](https://github.com/Penchal9959/Robotic_Vending_Dispenser) | Self-service juice vending machine — PyQt5 touchscreen interface on a Raspberry Pi 4, with Paytm checkout |
