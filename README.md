@@ -33,6 +33,7 @@ Before the PhD I built a lot of sensor-driven embedded hardware — that work li
 | **GNSS signal processing** | Acquisition, tracking loops, correlator design, PVT solution |
 | **Spoofing &amp; jamming** | Detection through spatial processing; interference characterisation |
 | **FPGA / RTL** | Verilog datapaths and AXI4-Stream capture logic on Xilinx Zynq-7000 |
+| **VLSI / physical design** | Full-custom CMOS layout and SPICE characterisation on SkyWater 130 nm |
 | **Embedded systems** | STM32N6, real-time DSP on constrained hardware |
 
 ---
@@ -43,6 +44,8 @@ Before the PhD I built a lot of sensor-driven embedded hardware — that work li
 |------------|-----------|
 | [zynq-gnss-data-capture](https://github.com/Penchal9959/zynq-gnss-data-capture) | FPGA data acquisition for a GNSS RF front-end on a ZC706 — custom AXI4-Stream packer in PL, capture to DDR3 and microSD from the Zynq PS |
 | [zynq-hdmi-rasterizer](https://github.com/Penchal9959/zynq-hdmi-rasterizer) | Verilog triangle rasterizer driving HDMI directly on a PYNQ-Z2 — edge-function fill, one pixel per clock, no frame buffer |
+| [sky130-inverter-layout](https://github.com/Penchal9959/sky130-inverter-layout) | Full-custom CMOS cells drawn in Magic on SkyWater 130 nm — DRC and LVS clean, parasitic-extracted and re-simulated |
+| [sky130-inverter-characterisation](https://github.com/Penchal9959/sky130-inverter-characterisation) | SPICE characterisation of a CMOS inverter — delay, transfer curve, noise margins, and what transistor sizing actually buys |
 | [verilog-digital-design](https://github.com/Penchal9959/verilog-digital-design) | RTL designs — FSM-controlled multiplier, sequence detectors, true dual-port RAM. Self-checking testbenches, all passing under Icarus Verilog |
 | [embedded-iot-projects](https://github.com/Penchal9959/embedded-iot-projects) | Twelve microcontroller projects — GSM alerting, sensor-triggered actuation, solar-powered field deployment |
 | [Robotic_Vending_Dispenser](https://github.com/Penchal9959/Robotic_Vending_Dispenser) | Self-service juice vending machine — PyQt5 touchscreen interface on a Raspberry Pi 4, with Paytm checkout |
