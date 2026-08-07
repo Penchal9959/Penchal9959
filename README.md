@@ -34,6 +34,7 @@ Before the PhD I built a lot of sensor-driven embedded hardware — that work li
 | **Spoofing &amp; jamming** | Detection through spatial processing; interference characterisation |
 | **FPGA / RTL** | Verilog datapaths and AXI4-Stream capture logic on Xilinx Zynq-7000 |
 | **VLSI / physical design** | Full-custom CMOS layout and SPICE characterisation on SkyWater 130 nm; RTL-to-GDSII flow on 65 nm — synthesis, place and route, timing signoff |
+| **Design automation** | Logic simulation, two-level minimisation and formal equivalence checking, built from scratch |
 | **Embedded systems** | STM32N6, real-time DSP on constrained hardware |
 
 ---
@@ -48,6 +49,9 @@ Before the PhD I built a lot of sensor-driven embedded hardware — that work li
 | [sky130-standard-cell-library](https://github.com/Penchal9959/sky130-standard-cell-library) | Three CMOS standard cells with every library view — layout, LEF, Verilog, generated Liberty — a checker that fails when the views stop agreeing, and an audit of which measurements were fit to publish |
 | [sky130-inverter-characterisation](https://github.com/Penchal9959/sky130-inverter-characterisation) | SPICE characterisation of a CMOS inverter — delay, transfer curve, noise margins, and what transistor sizing actually buys |
 | [kogge-stone-adder-16bit](https://github.com/Penchal9959/kogge-stone-adder-16bit) | 16-bit parallel prefix adder from Verilog to GDSII on 65 nm — self-checking simulation, Genus synthesis, Innovus place and route, timing signoff |
+| [combinational-equivalence-checker](https://github.com/Penchal9959/combinational-equivalence-checker) | Miter-based equivalence checking — a complete justification search and 64-bit-parallel random simulation, both differential-tested against an exhaustive oracle |
+| [espresso-logic-minimizer](https://github.com/Penchal9959/espresso-logic-minimizer) | Two-level boolean minimisation — expand / irredundant / reduce over cube covers, every result verified exhaustively against its input |
+| [gate-level-logic-simulator](https://github.com/Penchal9959/gate-level-logic-simulator) | Levelized logic simulator for structural VHDL — topological scheduling and gate evaluation, exhaustively tested on ISCAS-85 c17 |
 | [verilog-digital-design](https://github.com/Penchal9959/verilog-digital-design) | RTL designs — FSM-controlled multiplier, sequence detectors, true dual-port RAM. Self-checking testbenches, all passing under Icarus Verilog |
 | [embedded-iot-projects](https://github.com/Penchal9959/embedded-iot-projects) | Twelve microcontroller projects — GSM alerting, sensor-triggered actuation, solar-powered field deployment |
 | [Robotic_Vending_Dispenser](https://github.com/Penchal9959/Robotic_Vending_Dispenser) | Self-service juice vending machine — PyQt5 touchscreen interface on a Raspberry Pi 4, with Paytm checkout |
