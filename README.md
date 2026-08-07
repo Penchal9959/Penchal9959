@@ -35,7 +35,7 @@ Before the PhD I built a lot of sensor-driven embedded hardware — that work li
 | **FPGA / RTL** | Verilog datapaths and AXI4-Stream capture logic on Xilinx Zynq-7000 |
 | **VLSI / physical design** | Full-custom CMOS layout and SPICE characterisation on SkyWater 130 nm; RTL-to-GDSII flow on 65 nm — synthesis, place and route, timing signoff |
 | **Design automation** | Logic simulation, two-level minimisation and formal equivalence checking, built from scratch |
-| **Embedded systems** | STM32N6, real-time DSP on constrained hardware |
+| **Embedded systems** | Real-time DSP on constrained hardware |
 
 ---
 
