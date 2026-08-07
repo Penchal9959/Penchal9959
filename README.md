@@ -19,7 +19,7 @@ I'm a PhD research scholar at **IIT Bombay**, working on **GNSS receiver signal 
 a focus on detecting and mitigating **spoofing and jamming** attacks on satellite navigation.
 
 My work spans the full receiver chain: acquisition and tracking, PVT Algorithms. Alongside that, I work
-on embedded systems for real-time signal processing on **STM32N6** class hardware.
+on embedded systems for real-time signal processing.
 
 Before the PhD I built a lot of sensor-driven embedded hardware — that work lives in
 [embedded-iot-projects](https://github.com/Penchal9959/embedded-iot-projects).
