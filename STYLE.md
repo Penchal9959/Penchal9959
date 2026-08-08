@@ -131,34 +131,37 @@ Uniform navigation, specific content. Nothing is flattened into generic prose.
 
 Every number in `## Results` is paired with the command that reproduces it.
 
-## Structure — archived repositories
+## Consolidated projects
 
-```
-# <Name>
+Several early projects also exist inside a maintained collection -
+`embedded-iot-projects` and `verilog-digital-design`. Their own repositories
+stay active and say so in one sentence near the top: a reviewed version, with a
+build check and fuller documentation, is in the collection. That is a
+cross-reference, not a notice that the repository is dead.
 
-**Archived.** <Superseded by [`folder`](link), or: why it is kept.>
+**Nothing on this account is archived.** No repository is in GitHub's archived
+state, and no README says it is. Phase 4 of `apply.ps1` is disabled and must
+stay that way unless the decision is deliberately reversed - re-enabling it
+without restoring the notices would leave repositories read-only while claiming
+to be maintained.
 
-## What this was
-## Known defects        <- only where a defect exists
-## Why it was archived
-## Licence
-```
-
-**Seven archived repositories carry a defect note and every one must survive**,
-rewritten for voice but never softened: `Patient_Monitoring_System` (inverted
-clinical thresholds, including "do not use this version as a health monitor"),
-`Smart_Vehicle_Detector` (measures distance, not closing speed), `DUAL-PORT-RAM`
-(it is single-port), `FSM-SEQUENCE-DETECTOR` (`$display`-only testbench that
-cannot fail), `Smart_Dustbin`, `Women_Security_Alarm` and `Smart_Irrigation_…`
-(each records what was purged).
+**Seven repositories carry a defect note and every one must survive**, rewritten
+for voice but never softened: `Patient_Monitoring_System` (inverted clinical
+thresholds, including "do not use this version as a health monitor"),
+`Smart_Vehicle_Detector` (measures distance, not closing speed),
+`DUAL-PORT-RAM` (it is single-port), `FSM-SEQUENCE-DETECTOR` (a `$display`-only
+testbench that cannot fail), and `Smart_Dustbin`, `Women_Security_Alarm` and
+`Smart_Irrigation_…` (each records what was purged). Those are safety and
+honesty, not a statement about the repository's status, and nothing above
+affects them.
 
 ---
 
 ## Metadata
 
 **Description.** One sentence, **under 120 characters**, no trailing full stop,
-same voice as the README's opening line. Archived repositories say so and name
-their successor where they have one.
+same voice as the README's opening line. It describes what the thing is, not
+what became of it.
 
 **Topics.** 4–8 per repository, from this list only:
 
@@ -169,15 +172,20 @@ open silicon      sky130 open-source-silicon spice magic standard-cell
 design automation eda cad logic-simulation logic-synthesis
                   formal-verification
 embedded          arduino esp8266 embedded iot raspberry-pi
+                  gsm rfid bluetooth ultrasonic servo rtc sensors thingspeak
+                  automation
 software / web    python django pyqt5 gui html css web
-state             archived learning
+                  sqlite ecommerce payment-gateway serverless
+hardware detail   fsm memory
+state             learning
 ```
 
-The list was extended once, on 8 August 2026: the original was drawn from the
-hardware repositories and had no honest tag for the PyQt5 interface or the
-HTML and CSS exercises, which would have forced either a wrong tag or fewer
-than four. Extend it again the same way if that happens — deliberately, in this
-file — rather than inventing a tag at the point of use.
+Extended twice, both times deliberately and in this file rather than at the
+point of use. First when the hardware-derived list had no honest tag for the
+PyQt5 interface or the HTML and CSS exercises. Second when `archived` was
+dropped from every repository and twenty-one fell to three topics — the domain
+tags above replaced it, and they are better for discovery than a status tag
+ever was.
 
 **Descriptions are set in one place only.** Phase 3 of `apply.ps1` used to
 overwrite corrected descriptions on every run and was deleted for it. Do not
@@ -188,7 +196,7 @@ front door; a project page is documentation.
 
 ## Licensing
 
-MIT everywhere, including archived. A public repository with no licence is "all
+MIT everywhere. A public repository with no licence is "all
 rights reserved" by default, which is not the intent for a record of learning
 work.
 
