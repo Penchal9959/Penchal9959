@@ -44,17 +44,12 @@ Before the PhD I built a lot of sensor-driven embedded hardware. That work is in
 Every one of these opens with what is verified and by which command, and closes
 with what is not.
 
+Some of my VLSI, physical-design and design-automation work is in private
+repositories and is not listed here.
+
 | Repository | What it is |
 |------------|-----------|
 | [zynq-gnss-data-capture](https://github.com/Penchal9959/zynq-gnss-data-capture) | FPGA data acquisition for a GNSS RF front-end on a ZC706. Custom AXI4-Stream packer in the PL, capture to DDR3 and microSD from the PS |
-| [zynq-hdmi-rasterizer](https://github.com/Penchal9959/zynq-hdmi-rasterizer) | Verilog triangle rasterizer driving HDMI directly on a PYNQ-Z2. Edge-function fill, one pixel per clock, no frame buffer |
-| [kogge-stone-adder-16bit](https://github.com/Penchal9959/kogge-stone-adder-16bit) | 16-bit parallel prefix adder from Verilog to GDSII on 65 nm. Self-checking simulation, Genus synthesis, Innovus place and route, timing signoff |
-| [sky130-standard-cell-library](https://github.com/Penchal9959/sky130-standard-cell-library) | Three CMOS standard cells with layout, LEF, netlists and Verilog. Two of the three reach the Liberty view; the README says why the third does not, and audits which measurements were fit to publish |
-| [sky130-inverter-layout](https://github.com/Penchal9959/sky130-inverter-layout) | Full-custom CMOS cells drawn in Magic on SkyWater 130 nm. DRC and LVS clean, parasitic-extracted and re-simulated |
-| [sky130-inverter-characterisation](https://github.com/Penchal9959/sky130-inverter-characterisation) | SPICE characterisation of a CMOS inverter. Delay, transfer curve, noise margins, and what transistor sizing actually buys |
-| [combinational-equivalence-checker](https://github.com/Penchal9959/combinational-equivalence-checker) | Miter-based equivalence checking. A complete justification search and 64-bit-parallel random simulation, both differential-tested against an exhaustive oracle |
-| [espresso-logic-minimizer](https://github.com/Penchal9959/espresso-logic-minimizer) | Two-level boolean minimisation. Expand, irredundant and reduce over cube covers, every result verified exhaustively against its input |
-| [gate-level-logic-simulator](https://github.com/Penchal9959/gate-level-logic-simulator) | Levelised logic simulator for structural VHDL. Topological scheduling and three-valued gate evaluation, exhaustively tested on ISCAS-85 c17 |
 | [verilog-digital-design](https://github.com/Penchal9959/verilog-digital-design) | RTL designs: FSM-controlled multiplier, sequence detectors, true dual-port RAM. Self-checking testbenches, all passing under Icarus Verilog |
 | [embedded-iot-projects](https://github.com/Penchal9959/embedded-iot-projects) | Twelve microcontroller projects. GSM alerting, sensor-triggered actuation, solar-powered field deployment. All twelve compile under `arduino-cli` |
 | [Robotic_Vending_Dispenser](https://github.com/Penchal9959/Robotic_Vending_Dispenser) | PyQt5 touchscreen interface for a self-service juice machine on a Raspberry Pi 4. The interface only: the motor control and the payment processing are elsewhere |
