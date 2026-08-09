@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>PhD Research Scholar</b><br>
-  GNSS signal processing · spoofing and jamming detection · FPGA / RTL design
+  GNSS signal processing · spoofing and jamming detection · FPGA / RTL design . Design Verification 
 </p>
 
 <p align="center">
