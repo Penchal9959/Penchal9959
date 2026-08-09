@@ -1,7 +1,7 @@
 <h1 align="center">Penchalanarasaiah Kuncham</h1>
 
 <p align="center">
-  <b>PhD Research Scholar · IIT Bombay</b><br>
+  <b>PhD Research Scholar</b><br>
   GNSS signal processing · spoofing and jamming detection · FPGA / RTL design
 </p>
 
