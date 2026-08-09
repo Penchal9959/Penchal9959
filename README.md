@@ -15,7 +15,7 @@
 
 ### About
 
-I'm a PhD research scholar at **IIT Bombay**, working on GNSS receiver signal
+I'm a PhD research scholar, working on GNSS receiver signal
 processing, with a focus on detecting and mitigating spoofing and jamming
 attacks on satellite navigation. My work spans the full receiver chain:
 acquisition, tracking loops, and the PVT solution. Alongside that I work on
